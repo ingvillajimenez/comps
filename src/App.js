@@ -31,3 +31,8 @@ function App() {
 }
 
 export default App;
+
+// npmjs.com/package/prop-types
+// Docs
+
+// comps git:(master) npm install prop-types
