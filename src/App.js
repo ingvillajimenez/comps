@@ -45,3 +45,6 @@ export default App;
 
 // npmjs.com/package/classnames
 // ➜  comps git:(master) npm install classnames
+
+// npm install tailwind-merge
+// import { twMerge } from 'tailwind-merge';
