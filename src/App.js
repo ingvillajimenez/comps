@@ -42,3 +42,6 @@ export default App;
 
 // tailwindcss.com/docs/guides/create-react-app
 // https://tailwindcss.com/docs/installation
+
+// npmjs.com/package/classnames
+// ➜  comps git:(master) npm install classnames

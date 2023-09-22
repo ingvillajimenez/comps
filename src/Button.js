@@ -1,4 +1,12 @@
-import PropTypes from "prop-types";
+import className from "classnames";
+
+// example
+const finalClassName = className("px-1.5", {
+  "bg-blue-500": true,
+  "text-yellow-500": false,
+});
+
+console.log(finalClassName);
 
 function Button({
   children,
