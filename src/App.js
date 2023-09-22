@@ -2,10 +2,20 @@ import { GoBellFill, GoCloud, GoDatabase } from "react-icons/go";
 import Button from "./Button";
 
 function App() {
+  const handleClick = () => {
+    console.log("click");
+  };
+
   return (
     <div>
       <div>
-        <Button secondary outline rounded>
+        <Button
+          secondary
+          outline
+          rounded
+          className="mb-5"
+          onClick={handleClick}
+        >
           <GoBellFill />
           Click me!!
         </Button>
