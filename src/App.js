@@ -41,3 +41,4 @@ export default App;
 // npx tailwindcss init -p
 
 // tailwindcss.com/docs/guides/create-react-app
+// https://tailwindcss.com/docs/installation
