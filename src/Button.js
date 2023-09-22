@@ -10,6 +10,7 @@ function Button({
   danger,
   outline,
   rounded,
+  onClick,
 }) {
   const classes = twMerge(
     className("flex items-center px-3 py-1.5 border", {
@@ -28,7 +29,11 @@ function Button({
     })
   );
 
-  return <button className={classes}>{children}</button>;
+  return (
+    <button onClick={onClick} className={classes}>
+      {children}
+    </button>
+  );
 }
 
 Button.propTypes = {
