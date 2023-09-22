@@ -1,3 +1,4 @@
+import { GoBellFill, GoCloud, GoDatabase } from "react-icons/go";
 import Button from "./Button";
 
 function App() {
@@ -5,16 +6,21 @@ function App() {
     <div>
       <div>
         <Button secondary outline rounded>
+          <GoBellFill />
           Click me!!
         </Button>
       </div>
       <div>
         <Button danger outline>
+          <GoCloud />
           Buy Now!
         </Button>
       </div>
       <div>
-        <Button warning>See Deal!</Button>
+        <Button warning>
+          <GoDatabase />
+          See Deal!
+        </Button>
       </div>
       <div>
         <Button secondary outline>
@@ -35,9 +41,9 @@ export default App;
 // npmjs.com/package/prop-types
 // Docs
 
-// comps git:(master) npm install prop-types
+// ➜  comps git:(master) npm install prop-types
 
-// npm install -D tailwindcss postcss autoprefixer
+// ➜  comps git:(master) npm install -D tailwindcss postcss autoprefixer
 // npx tailwindcss init -p
 
 // tailwindcss.com/docs/guides/create-react-app
@@ -46,5 +52,9 @@ export default App;
 // npmjs.com/package/classnames
 // ➜  comps git:(master) npm install classnames
 
-// npm install tailwind-merge
+// ➜  comps git:(master) npm install tailwind-merge
 // import { twMerge } from 'tailwind-merge';
+
+// react-icons.github.io/react-icons
+// Gives access to a ton of different icon libraries
+// ➜  comps git:(master) npm install react-icons
