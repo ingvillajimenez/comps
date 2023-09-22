@@ -39,3 +39,5 @@ export default App;
 
 // npm install -D tailwindcss postcss autoprefixer
 // npx tailwindcss init -p
+
+// tailwindcss.com/docs/guides/create-react-app
