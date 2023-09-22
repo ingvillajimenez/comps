@@ -9,7 +9,7 @@ function App() {
         </Button>
       </div>
       <div>
-        <Button danger outliine>
+        <Button danger outline>
           Buy Now!
         </Button>
       </div>
@@ -36,3 +36,6 @@ export default App;
 // Docs
 
 // comps git:(master) npm install prop-types
+
+// npm install -D tailwindcss postcss autoprefixer
+// npx tailwindcss init -p
