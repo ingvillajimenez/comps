@@ -1,7 +1,7 @@
 import { GoBellFill, GoCloud, GoDatabase } from "react-icons/go";
-import Button from "./components/Button";
+import Button from "../components/Button";
 
-function App() {
+function ButtonPage() {
   const handleClick = () => {
     console.log("click");
   };
@@ -46,25 +46,4 @@ function App() {
   );
 }
 
-export default App;
-
-// npmjs.com/package/prop-types
-// Docs
-
-// ➜  comps git:(master) npm install prop-types
-
-// ➜  comps git:(master) npm install -D tailwindcss postcss autoprefixer
-// npx tailwindcss init -p
-
-// tailwindcss.com/docs/guides/create-react-app
-// https://tailwindcss.com/docs/installation
-
-// npmjs.com/package/classnames
-// ➜  comps git:(master) npm install classnames
-
-// ➜  comps git:(master) npm install tailwind-merge
-// import { twMerge } from 'tailwind-merge';
-
-// react-icons.github.io/react-icons
-// Gives access to a ton of different icon libraries
-// ➜  comps git:(master) npm install react-icons
+export default ButtonPage;
