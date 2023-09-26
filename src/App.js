@@ -29,3 +29,7 @@ export default App;
 
 // window.history.pushState({}, '', '/dropdown');
 // Updates the address bar but doesn't cause a refresh
+
+// window.history.pushState({}, '', '/a1');
+// window.history.pushState({}, '', '/b2');
+// window.addEventListener('popstate', () => console.log('Im at', window.location.pathname));
