@@ -26,3 +26,6 @@ export default App;
 // ➜  comps git:(master) npm install react-icons
 
 // window.location.pathname
+
+// window.history.pushState({}, '', '/dropdown');
+// Updates the address bar but doesn't cause a refresh
