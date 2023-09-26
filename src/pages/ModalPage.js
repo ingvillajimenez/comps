@@ -25,12 +25,14 @@ function ModalPage() {
       <p>Here is an important agreement for you to accept</p>
     </Modal>
   );
+
   return (
     <div>
       <Button onClick={handleClick} primary>
         Open Modal
       </Button>
       {showModal && modal}
+
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia
         quam nisi, id cursus turpis congue ut. Fusce luctus nulla enim. Aenean
