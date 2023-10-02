@@ -70,3 +70,5 @@ export default App;
 // https://lipsum.com/
 
 // ➜  comps git:(master) npm install immer
+
+// codesandbox.io/s/rtk-360ssw
